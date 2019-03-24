@@ -13,7 +13,7 @@ export default {
             username: '',
             options: null,
             userInfo: null,
-            url: 'http://127.0.0.1:8888/api/login',
+            url: 'http://127.0.0.1:8888/auth/login',
         }
     },
     created: function() {

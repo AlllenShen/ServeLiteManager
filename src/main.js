@@ -1,7 +1,6 @@
 import Vue from "vue";
 import App from "./App.vue";
 import routers from "./router";
-import store from "./store";
 import "./registerServiceWorker";
 import iView from 'iview';
 import 'iview/dist/styles/iview.css';
@@ -28,6 +27,5 @@ router.beforeEach((to, from, next) => {
 
 new Vue({
   router,
-  store,
   render: h => h(App)
 }).$mount("#app");
